@@ -1,0 +1,94 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+enum CategoriaModelo {
+  BASICO
+  ESPORTIVO
+  PREMIUM
+}
+
+enum NivelSustentacao {
+  LEVE
+  MEDIA
+  ALTA
+}
+
+abstract class Produto {
+  -id: int
+  -nome: String
+  -descricao: String
+  -preco: double
+  +cadastrar()
+  +editar()
+  +excluir()
+  +listar()
+}
+
+class Top {
+  -codigo: String
+}
+
+Produto <|-- Top: Herança
+
+class Modelo {
+  -id: int
+  -nome: String
+  -categoria: CategoriaModelo
+}
+
+class Tamanho {
+  -id: int
+  -sigla: String
+  -descricao: String
+}
+
+class Cor {
+  -id: int
+  -nome: String
+  -hex: String
+}
+
+class Material {
+  -id: int
+  -nome: String
+  -composicao: String
+}
+
+class TipoSustentacao {
+  -id: int
+  -descricao: String
+  -nivel: NivelSustentacao
+}
+
+class Marca {
+  -id: int
+  -nome: String
+}
+
+class FichaTecnica {
+  -peso: double
+  -elasticidade: String
+  -costura: String
+}
+
+'======================
+' Relacionamentos
+'======================
+Modelo "1" -- "0..*" Top : associa
+Tamanho "1" -- "0..*" Top : define
+Cor "1" -- "0..*" Top : define
+TipoSustentacao "1" -- "0..*" Top : define
+
+Top "*" o-- "*" Material : agrega
+Top "1" *-- "1" FichaTecnica : compõe
+
+Marca "1" -- "0..*" Top : possui
+Top "0..*" -- "1" Marca : pertence
+
+'======================
+' Links explícitos dos ENUMs
+'======================
+Modelo ..> CategoriaModelo : usa
+TipoSustentacao ..> NivelSustentacao : usa
+
+@enduml

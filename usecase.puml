@@ -1,0 +1,34 @@
+@startuml
+left to right direction
+
+actor Administrador
+
+rectangle "Sistema Administrativo - Top de Academia" {
+  usecase "CRUD Modelo" as UC1
+  usecase "CRUD Tamanho" as UC2
+  usecase "CRUD Cor" as UC3
+  usecase "CRUD Material" as UC4
+  usecase "CRUD Tipo de Sustentação" as UC5
+  usecase "CRUD Top" as UC6
+
+  usecase "Definir Modelo do Top" as UC7
+  usecase "Definir Tamanho do Top" as UC8
+  usecase "Definir Cor do Top" as UC9
+  usecase "Definir Material do Top" as UC10
+  usecase "Definir Tipo Sustentação do Top" as UC11
+}
+
+Administrador --> UC1
+Administrador --> UC2
+Administrador --> UC3
+Administrador --> UC4
+Administrador --> UC5
+Administrador --> UC6
+
+UC6 --> UC7 : <<include>>
+UC6 --> UC8 : <<include>>
+UC6 --> UC9 : <<include>>
+UC6 --> UC10 : <<include>>
+UC6 --> UC11 : <<include>>
+
+@enduml
