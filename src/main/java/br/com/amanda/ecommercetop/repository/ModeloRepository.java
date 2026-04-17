@@ -5,8 +5,10 @@ import io.quarkus.hibernate.orm.panache.PanacheQuery;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import jakarta.enterprise.context.ApplicationScoped;
 
+// Repositorio para consultas de Modelo usando Panache.
 @ApplicationScoped
 public class ModeloRepository implements PanacheRepository<Modelo> {
+    // Busca por nome com LIKE case-insensitive.
     public PanacheQuery<Modelo> findByNome(String nome) {
         return find("UPPER(nome) LIKE UPPER(?1)", "%" + nome + "%");
     }

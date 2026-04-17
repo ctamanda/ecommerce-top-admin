@@ -12,14 +12,17 @@ import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
 
+// Endpoints REST para CRUD de Material.
 @Path("/materiais")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class MaterialResource {
 
+    // Injeta o service com as regras de negocio.
     @Inject
     MaterialService service;
 
+    // Lista todos os materiais cadastrados.
     @GET
     public Response buscarTodos() {
         List<MaterialResponseDTO> lista = service.findAll()
@@ -27,6 +30,7 @@ public class MaterialResource {
         return Response.ok(lista).build();
     }
 
+    // Filtra materiais por nome (LIKE).
     @GET
     @Path("/find/{nome}")
     public Response buscarPorNome(@PathParam("nome") String nome) {
@@ -35,6 +39,7 @@ public class MaterialResource {
         return Response.ok(lista).build();
     }
 
+    // Busca um material por id.
     @GET
     @Path("/{id}")
     public Response buscarPorId(@PathParam("id") Long id) {
@@ -43,12 +48,14 @@ public class MaterialResource {
         return Response.ok(MaterialMapper.toResponseDTO(m)).build();
     }
 
+    // Cria um novo material com validacao do DTO.
     @POST
     public Response incluir(@Valid MaterialRequestDTO dto) {
         Material m = service.create(MaterialMapper.toEntity(dto));
         return Response.status(Response.Status.CREATED).entity(MaterialMapper.toResponseDTO(m)).build();
     }
 
+    // Atualiza um material existente.
     @PUT
     @Path("/{id}")
     public Response alterar(@PathParam("id") Long id, @Valid MaterialRequestDTO dto) {
@@ -57,6 +64,7 @@ public class MaterialResource {
         return Response.noContent().build();
     }
 
+    // Remove um material existente.
     @DELETE
     @Path("/{id}")
     public Response deletar(@PathParam("id") Long id) {

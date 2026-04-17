@@ -12,14 +12,17 @@ import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
 
+// Endpoints REST para CRUD de Cor.
 @Path("/cores")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class CorResource {
 
+    // Injeta o service com as regras de negocio.
     @Inject
     CorService service;
 
+    // Lista todas as cores cadastradas.
     @GET
     public Response buscarTodos() {
         List<CorResponseDTO> lista = service.findAll()
@@ -27,6 +30,7 @@ public class CorResource {
         return Response.ok(lista).build();
     }
 
+    // Filtra cores por nome (LIKE).
     @GET
     @Path("/find/{nome}")
     public Response buscarPorNome(@PathParam("nome") String nome) {
@@ -35,6 +39,7 @@ public class CorResource {
         return Response.ok(lista).build();
     }
 
+    // Busca uma cor por id.
     @GET
     @Path("/{id}")
     public Response buscarPorId(@PathParam("id") Long id) {
@@ -43,12 +48,14 @@ public class CorResource {
         return Response.ok(CorMapper.toResponseDTO(c)).build();
     }
 
+    // Cria uma nova cor com validacao do DTO.
     @POST
     public Response incluir(@Valid CorRequestDTO dto) {
         Cor c = service.create(CorMapper.toEntity(dto));
         return Response.status(Response.Status.CREATED).entity(CorMapper.toResponseDTO(c)).build();
     }
 
+    // Atualiza uma cor existente.
     @PUT
     @Path("/{id}")
     public Response alterar(@PathParam("id") Long id, @Valid CorRequestDTO dto) {
@@ -57,6 +64,7 @@ public class CorResource {
         return Response.noContent().build();
     }
 
+    // Remove uma cor existente.
     @DELETE
     @Path("/{id}")
     public Response deletar(@PathParam("id") Long id) {

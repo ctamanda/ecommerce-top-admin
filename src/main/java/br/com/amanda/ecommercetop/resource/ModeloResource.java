@@ -12,14 +12,17 @@ import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
 
+// Endpoints REST para CRUD de Modelo.
 @Path("/modelos")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class ModeloResource {
 
+    // Injeta o service com as regras de negocio.
     @Inject
     ModeloService service;
 
+    // Lista todos os modelos cadastrados.
     @GET
     public Response buscarTodos() {
         List<ModeloResponseDTO> lista = service.findAll()
@@ -27,6 +30,7 @@ public class ModeloResource {
         return Response.ok(lista).build();
     }
 
+    // Filtra modelos por nome (LIKE).
     @GET
     @Path("/find/{nome}")
     public Response buscarPorNome(@PathParam("nome") String nome) {
@@ -35,6 +39,7 @@ public class ModeloResource {
         return Response.ok(lista).build();
     }
 
+    // Busca um modelo por id.
     @GET
     @Path("/{id}")
     public Response buscarPorId(@PathParam("id") Long id) {
@@ -43,12 +48,14 @@ public class ModeloResource {
         return Response.ok(ModeloMapper.toResponseDTO(m)).build();
     }
 
+    // Cria um novo modelo com validacao do DTO.
     @POST
     public Response incluir(@Valid ModeloRequestDTO dto) {
         Modelo m = service.create(ModeloMapper.toEntity(dto));
         return Response.status(Response.Status.CREATED).entity(ModeloMapper.toResponseDTO(m)).build();
     }
 
+    // Atualiza um modelo existente.
     @PUT
     @Path("/{id}")
     public Response alterar(@PathParam("id") Long id, @Valid ModeloRequestDTO dto) {
@@ -57,6 +64,7 @@ public class ModeloResource {
         return Response.noContent().build();
     }
 
+    // Remove um modelo existente.
     @DELETE
     @Path("/{id}")
     public Response deletar(@PathParam("id") Long id) {

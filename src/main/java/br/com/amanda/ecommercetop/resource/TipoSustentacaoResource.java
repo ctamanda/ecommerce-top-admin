@@ -12,14 +12,17 @@ import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
 
+// Endpoints REST para CRUD de TipoSustentacao.
 @Path("/tiposustentacoes")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class TipoSustentacaoResource {
 
+    // Injeta o service com as regras de negocio.
     @Inject
     TipoSustentacaoService service;
 
+    // Lista todos os tipos cadastrados.
     @GET
     public Response buscarTodos() {
         List<TipoSustentacaoResponseDTO> lista = service.findAll()
@@ -27,6 +30,7 @@ public class TipoSustentacaoResource {
         return Response.ok(lista).build();
     }
 
+    // Filtra tipos por descricao (LIKE).
     @GET
     @Path("/find/{descricao}")
     public Response buscarPorDescricao(@PathParam("descricao") String descricao) {
@@ -35,6 +39,7 @@ public class TipoSustentacaoResource {
         return Response.ok(lista).build();
     }
 
+    // Busca um tipo por id.
     @GET
     @Path("/{id}")
     public Response buscarPorId(@PathParam("id") Long id) {
@@ -43,12 +48,14 @@ public class TipoSustentacaoResource {
         return Response.ok(TipoSustentacaoMapper.toResponseDTO(t)).build();
     }
 
+    // Cria um novo tipo com validacao do DTO.
     @POST
     public Response incluir(@Valid TipoSustentacaoRequestDTO dto) {
         TipoSustentacao t = service.create(TipoSustentacaoMapper.toEntity(dto));
         return Response.status(Response.Status.CREATED).entity(TipoSustentacaoMapper.toResponseDTO(t)).build();
     }
 
+    // Atualiza um tipo existente.
     @PUT
     @Path("/{id}")
     public Response alterar(@PathParam("id") Long id, @Valid TipoSustentacaoRequestDTO dto) {
@@ -57,6 +64,7 @@ public class TipoSustentacaoResource {
         return Response.noContent().build();
     }
 
+    // Remove um tipo existente.
     @DELETE
     @Path("/{id}")
     public Response deletar(@PathParam("id") Long id) {

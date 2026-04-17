@@ -12,14 +12,17 @@ import jakarta.validation.Valid;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.*;
 
+// Endpoints REST para CRUD de Tamanho.
 @Path("/tamanhos")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class TamanhoResource {
 
+    // Injeta o service com as regras de negocio.
     @Inject
     TamanhoService service;
 
+    // Lista todos os tamanhos cadastrados.
     @GET
     public Response buscarTodos() {
         List<TamanhoResponseDTO> lista = service.findAll()
@@ -27,6 +30,7 @@ public class TamanhoResource {
         return Response.ok(lista).build();
     }
 
+    // Filtra tamanhos por descricao (LIKE).
     @GET
     @Path("/find/{descricao}")
     public Response buscarPorDescricao(@PathParam("descricao") String descricao) {
@@ -35,6 +39,7 @@ public class TamanhoResource {
         return Response.ok(lista).build();
     }
 
+    // Busca um tamanho por id.
     @GET
     @Path("/{id}")
     public Response buscarPorId(@PathParam("id") Long id) {
@@ -43,12 +48,14 @@ public class TamanhoResource {
         return Response.ok(TamanhoMapper.toResponseDTO(t)).build();
     }
 
+    // Cria um novo tamanho com validacao do DTO.
     @POST
     public Response incluir(@Valid TamanhoRequestDTO dto) {
         Tamanho t = service.create(TamanhoMapper.toEntity(dto));
         return Response.status(Response.Status.CREATED).entity(TamanhoMapper.toResponseDTO(t)).build();
     }
 
+    // Atualiza um tamanho existente.
     @PUT
     @Path("/{id}")
     public Response alterar(@PathParam("id") Long id, @Valid TamanhoRequestDTO dto) {
@@ -57,6 +64,7 @@ public class TamanhoResource {
         return Response.noContent().build();
     }
 
+    // Remove um tamanho existente.
     @DELETE
     @Path("/{id}")
     public Response deletar(@PathParam("id") Long id) {

@@ -3,6 +3,7 @@ package br.com.amanda.ecommercetop.service;
 import java.util.List;
 import br.com.amanda.ecommercetop.model.Tamanho;
 
+// Contrato de operacoes de negocio para Tamanho.
 public interface TamanhoService {
     List<Tamanho> findAll();
     Tamanho findById(Long id);

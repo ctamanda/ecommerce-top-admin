@@ -3,6 +3,7 @@ package br.com.amanda.ecommercetop.service;
 import java.util.List;
 import br.com.amanda.ecommercetop.model.Cor;
 
+// Contrato de operacoes de negocio para Cor.
 public interface CorService {
     List<Cor> findAll();
     Cor findById(Long id);
