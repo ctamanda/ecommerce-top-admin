@@ -64,6 +64,28 @@ If you want to learn more about building native executables, please consult <htt
 - Hibernate ORM with Panache ([guide](https://quarkus.io/guides/hibernate-orm-panache)): Simplify your persistence code for Hibernate ORM via the active record or the repository pattern
 - JDBC Driver - PostgreSQL ([guide](https://quarkus.io/guides/datasource)): Connect to the PostgreSQL database via JDBC
 
+## Configuração de conta real (Mercado Pago e e-mail)
+
+Para que os pagamentos caiam na **sua conta**, você precisa configurar as credenciais da sua própria conta Mercado Pago por variável de ambiente:
+
+```bash
+export MERCADO_PAGO_API_KEY="SEU_ACCESS_TOKEN"
+export MERCADO_PAGO_NOTIFICATION_URL="https://seu-dominio.com/webhooks/mercado-pago"
+```
+
+Para recuperação de senha por e-mail real (SMTP):
+
+```bash
+export MAIL_FROM="seu-email@gmail.com"
+export MAIL_HOST="smtp.gmail.com"
+export MAIL_PORT="587"
+export MAIL_USERNAME="seu-email@gmail.com"
+export MAIL_PASSWORD="sua-senha-app"
+export MAIL_START_TLS="REQUIRED"
+```
+
+Sem essas variáveis, o sistema não terá credenciais para processar pagamentos/entregar e-mails em ambiente real.
+
 ## Provided Code
 
 ### Hibernate ORM
