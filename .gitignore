@@ -46,3 +46,15 @@ nb-configuration.xml
 
 # Windows
 desktop.ini
+Thumbs.db
+
+# SEGREDOS: nunca commitar credenciais reais do Mercado Pago
+run-mercadopago.ps1
+
+# Logs e dumps de crash da JVM
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Artefatos de demonstracao gerados em runtime
+qrcode-*.png

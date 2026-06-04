@@ -1,0 +1,408 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< br.com.amanda.ecommercetop:ecommerce-top-admin >-----------
+[INFO] Building ecommerce-top-admin 1.0.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] ------------------------------[ quarkus ]-------------------------------
+[INFO] 
+[INFO] --- quarkus:3.31.3:dev (default-cli) @ ecommerce-top-admin ---
+[INFO] Invoking quarkus:3.31.3:generate-code (default-generate-code) @ ecommerce-top-admin
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/qute/qute-debug/3.31.3/qute-debug-3.31.3.jar
+Progress (1): qute-debug-3.31.3.jar (0.9/85 kB)
+Progress (1): qute-debug-3.31.3.jar (2.3/85 kB)
+Progress (1): qute-debug-3.31.3.jar (3.6/85 kB)
+Progress (1): qute-debug-3.31.3.jar (5.0/85 kB)
+Progress (1): qute-debug-3.31.3.jar (6.4/85 kB)
+Progress (1): qute-debug-3.31.3.jar (7.7/85 kB)
+Progress (1): qute-debug-3.31.3.jar (9.1/85 kB)
+Progress (1): qute-debug-3.31.3.jar (10/85 kB) 
+Progress (1): qute-debug-3.31.3.jar (11/85 kB)
+Progress (1): qute-debug-3.31.3.jar (13/85 kB)
+Progress (1): qute-debug-3.31.3.jar (14/85 kB)
+Progress (1): qute-debug-3.31.3.jar (15/85 kB)
+Progress (1): qute-debug-3.31.3.jar (17/85 kB)
+Progress (1): qute-debug-3.31.3.jar (18/85 kB)
+Progress (1): qute-debug-3.31.3.jar (20/85 kB)
+Progress (1): qute-debug-3.31.3.jar (21/85 kB)
+Progress (1): qute-debug-3.31.3.jar (22/85 kB)
+Progress (1): qute-debug-3.31.3.jar (24/85 kB)
+Progress (1): qute-debug-3.31.3.jar (25/85 kB)
+Progress (1): qute-debug-3.31.3.jar (26/85 kB)
+Progress (1): qute-debug-3.31.3.jar (28/85 kB)
+Progress (1): qute-debug-3.31.3.jar (29/85 kB)
+Progress (1): qute-debug-3.31.3.jar (31/85 kB)
+Progress (1): qute-debug-3.31.3.jar (32/85 kB)
+Progress (1): qute-debug-3.31.3.jar (33/85 kB)
+Progress (1): qute-debug-3.31.3.jar (35/85 kB)
+Progress (1): qute-debug-3.31.3.jar (36/85 kB)
+Progress (1): qute-debug-3.31.3.jar (37/85 kB)
+Progress (1): qute-debug-3.31.3.jar (39/85 kB)
+Progress (1): qute-debug-3.31.3.jar (40/85 kB)
+Progress (1): qute-debug-3.31.3.jar (42/85 kB)
+Progress (1): qute-debug-3.31.3.jar (43/85 kB)
+Progress (1): qute-debug-3.31.3.jar (44/85 kB)
+Progress (1): qute-debug-3.31.3.jar (46/85 kB)
+Progress (1): qute-debug-3.31.3.jar (47/85 kB)
+Progress (1): qute-debug-3.31.3.jar (48/85 kB)
+Progress (1): qute-debug-3.31.3.jar (50/85 kB)
+Progress (1): qute-debug-3.31.3.jar (51/85 kB)
+Progress (1): qute-debug-3.31.3.jar (52/85 kB)
+Progress (1): qute-debug-3.31.3.jar (54/85 kB)
+Progress (1): qute-debug-3.31.3.jar (55/85 kB)
+Progress (1): qute-debug-3.31.3.jar (59/85 kB)
+Progress (1): qute-debug-3.31.3.jar (64/85 kB)
+Progress (1): qute-debug-3.31.3.jar (68/85 kB)
+Progress (1): qute-debug-3.31.3.jar (72/85 kB)
+Progress (1): qute-debug-3.31.3.jar (76/85 kB)
+Progress (1): qute-debug-3.31.3.jar (81/85 kB)
+Progress (1): qute-debug-3.31.3.jar (85 kB)   
+                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/qute/qute-debug/3.31.3/qute-debug-3.31.3.jar (85 kB at 83 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/qute/qute-debug/3.31.3/qute-debug-3.31.3.pom
+Progress (1): qute-debug-3.31.3.pom (1.3 kB)
+                                            
+Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/qute/qute-debug/3.31.3/qute-debug-3.31.3.pom (1.3 kB at 16 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.debug/0.24.0/org.eclipse.lsp4j.debug-0.24.0.pom
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.pom (930 B)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.pom (3.0 kB)
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.debug/0.24.0/org.eclipse.lsp4j.debug-0.24.0.pom (3.0 kB at 32 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc.debug/0.24.0/org.eclipse.lsp4j.jsonrpc.debug-0.24.0.pom
+Progress (1): org.eclipse.lsp4j.jsonrpc.debug-0.24.0.pom (920 B)
+Progress (1): org.eclipse.lsp4j.jsonrpc.debug-0.24.0.pom (3.2 kB)
+                                                                 
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc.debug/0.24.0/org.eclipse.lsp4j.jsonrpc.debug-0.24.0.pom (3.2 kB at 31 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.24.0/org.eclipse.lsp4j.jsonrpc-0.24.0.pom
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.pom (918 B)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.pom (3.0 kB)
+                                                           
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.24.0/org.eclipse.lsp4j.jsonrpc-0.24.0.pom (3.0 kB at 27 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.debug/0.24.0/org.eclipse.lsp4j.debug-0.24.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.24.0/org.eclipse.lsp4j.jsonrpc-0.24.0.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc.debug/0.24.0/org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (3.8/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (8.0/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (11/215 kB) 
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (16/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (20/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (24/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (28/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (33/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (37/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (41/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (45/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (49/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (54/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (58/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (62/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (66/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (71/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (75/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (79/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (83/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (88/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (92/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (96/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (100/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (104/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (121/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (134/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (151/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (167/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (183/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (200/215 kB)
+Progress (1): org.eclipse.lsp4j.debug-0.24.0.jar (215 kB)    
+                                                         
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.debug/0.24.0/org.eclipse.lsp4j.debug-0.24.0.jar (215 kB at 1.5 MB/s)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (0.9/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (2.3/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (3.6/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (5.0/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (6.4/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (7.7/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (9.1/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (10/153 kB) 
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (11/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (13/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (14/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (15/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (17/153 kB)
+Progress (1): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (18/153 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (18/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (0.9/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (20/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (0.9/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (20/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (2.3/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (21/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (2.3/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (21/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (3.6/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (22/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (3.6/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (22/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (5.0/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (24/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (5.0/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (24/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (6.4/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (25/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (6.4/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (25/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (7.7/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (25/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (9.1/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (26/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (9.1/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (26/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (10/30 kB) 
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (28/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (10/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (28/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (11/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (29/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (11/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (29/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (13/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (29/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (14/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (29/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (15/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (31/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (15/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (31/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (32/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (33/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (35/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (36/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (37/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (39/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (40/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (42/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (43/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (44/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (46/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (47/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (17/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (47/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (18/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (48/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (18/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (48/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (20/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (50/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (20/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (50/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (21/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (51/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (21/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (51/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (22/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (52/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (22/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (52/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (24/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (52/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (25/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (52/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (26/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (52/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (28/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (52/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (29/30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (52/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)   
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (54/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (55/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (59/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (64/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (68/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (72/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (76/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (81/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (85/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (89/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (93/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (97/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (102/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (106/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (110/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (114/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (119/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (123/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (127/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (131/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (136/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (140/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (142/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (147/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (151/153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)
+Progress (2): org.eclipse.lsp4j.jsonrpc-0.24.0.jar (153 kB) | org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB)    
+                                                                                                                
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc.debug/0.24.0/org.eclipse.lsp4j.jsonrpc.debug-0.24.0.jar (30 kB at 120 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/eclipse/lsp4j/org.eclipse.lsp4j.jsonrpc/0.24.0/org.eclipse.lsp4j.jsonrpc-0.24.0.jar (153 kB at 592 kB/s)
+[INFO] Invoking resources:3.3.1:resources (default-resources) @ ecommerce-top-admin
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] Invoking compiler:3.14.1:compile (default-compile) @ ecommerce-top-admin
+[INFO] Recompiling the module because of added or removed source files.
+[INFO] Compiling 153 source files with javac [debug parameters release 21] to target\classes
+[INFO] Invoking quarkus:3.31.3:generate-code-tests (default-generate-code-tests) @ ecommerce-top-admin
+[INFO] Invoking resources:3.3.1:testResources (default-testResources) @ ecommerce-top-admin
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] Invoking compiler:3.14.1:testCompile (default-testCompile) @ ecommerce-top-admin
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 14 source files with javac [debug parameters release 21] to target\test-classes
+Listening for transport dt_socket at address: 5005
+Press [e] to edit command line args (currently ''), [h] for more options>
+Tests paused
+Press [e] to edit command line args (currently ''), [r] to resume testing, [h] for more options>
+Press [e] to edit command line args (currently ''), [r] to resume testing, [o] Toggle test output, [h] for more options>
+__  ____  __  _____   ___  __ ____  ______ 
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+2026-06-04 19:16:06,679 WARN  [io.quarkus.config] (Quarkus Main Thread) The "quarkus.hibernate-orm.database.generation" config property is deprecated and should not be used anymore.
+2026-06-04 19:16:28,472 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (1:VARCHAR) <- [admin]
+2026-06-04 19:16:28,511 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:16:28,886 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:16:28.794281100]
+2026-06-04 19:16:28,889 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (2:VARCHAR) <- [admin@ecommerce-top.com.br]
+2026-06-04 19:16:28,889 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (3:VARCHAR) <- [admin]
+2026-06-04 19:16:28,890 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (4:VARCHAR) <- [Administrador]
+2026-06-04 19:16:28,890 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (5:ENUM) <- [ADMIN]
+2026-06-04 19:16:28,890 TRACE [org.hibernate.orm.jdbc.bind] (Quarkus Main Thread) binding parameter (6:VARCHAR) <- [$2a$10$/Vol4E/X95f6czIjff9QbulBKDARH.wKcXcIKhFL0c869WM2BX4LG]
+2026-06-04 19:16:28,920 INFO  [br.com.amanda.ecommercetop.bootstrap.DataSeeder] (Quarkus Main Thread) Usuario admin 'admin' criado automaticamente.
+2026-06-04 19:16:30,200 INFO  [io.quarkus] (Quarkus Main Thread) ecommerce-top-admin 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.31.3) started in 49.970s. Listening on: http://localhost:8080
+2026-06-04 19:16:30,201 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2026-06-04 19:16:30,202 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [agroal, cdi, flyway, hibernate-orm, hibernate-orm-panache, hibernate-validator, jdbc-h2, jdbc-postgresql, mailer, narayana-jta, qute, rest, rest-client, rest-client-jackson, rest-jackson, security, smallrye-context-propagation, smallrye-jwt, smallrye-openapi, swagger-ui, vertx]
+2026-06-04 19:18:22,173 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [admin]
+2026-06-04 19:18:22,218 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:25,045 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:ENUM) <- [ESPORTIVO]
+2026-06-04 19:18:25,047 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:TIMESTAMP) <- [2026-06-04T19:18:25.011013600]
+2026-06-04 19:18:25,048 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [Modelo demo app]
+2026-06-04 19:18:25,048 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:VARCHAR) <- [Mod321499]
+2026-06-04 19:18:25,211 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:25.210121200]
+2026-06-04 19:18:25,213 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [Medio demo]
+2026-06-04 19:18:25,214 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [M]
+2026-06-04 19:18:25,243 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:25.242634800]
+2026-06-04 19:18:25,243 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [#123456]
+2026-06-04 19:18:25,243 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [Cor321499]
+2026-06-04 19:18:25,270 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:25.268635800]
+2026-06-04 19:18:25,270 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [Suporte demo app]
+2026-06-04 19:18:25,271 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:ENUM) <- [ALTA]
+2026-06-04 19:18:25,290 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:25.289635200]
+2026-06-04 19:18:25,291 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [Marca321499]
+2026-06-04 19:18:25,315 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [Composicao demo]
+2026-06-04 19:18:25,316 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:TIMESTAMP) <- [2026-06-04T19:18:25.313640300]
+2026-06-04 19:18:25,317 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [Mat321499a]
+2026-06-04 19:18:25,327 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [Composicao demo 2]
+2026-06-04 19:18:25,327 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:TIMESTAMP) <- [2026-06-04T19:18:25.326148300]
+2026-06-04 19:18:25,328 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [Mat321499b]
+2026-06-04 19:18:25,387 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,398 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,402 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,405 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,407 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,409 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,411 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [2]
+2026-06-04 19:18:25,426 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [Reforcada]
+2026-06-04 19:18:25,426 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:TIMESTAMP) <- [2026-06-04T19:18:25.419678400]
+2026-06-04 19:18:25,426 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [Alta]
+2026-06-04 19:18:25,428 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:DOUBLE) <- [0.25]
+2026-06-04 19:18:25,448 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:25.415664800]
+2026-06-04 19:18:25,450 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [Top demo]
+2026-06-04 19:18:25,450 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [Top Demo App]
+2026-06-04 19:18:25,450 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:DOUBLE) <- [129.9]
+2026-06-04 19:18:25,456 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [TP-APP-321499]
+2026-06-04 19:18:25,457 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:BIGINT) <- [1]
+2026-06-04 19:18:25,458 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:BIGINT) <- [1]
+2026-06-04 19:18:25,458 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:BIGINT) <- [1]
+2026-06-04 19:18:25,459 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (5:BIGINT) <- [1]
+2026-06-04 19:18:25,459 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (6:BIGINT) <- [1]
+2026-06-04 19:18:25,460 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (7:BIGINT) <- [1]
+2026-06-04 19:18:25,460 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (8:BIGINT) <- [1]
+2026-06-04 19:18:25,483 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,484 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:BIGINT) <- [2]
+2026-06-04 19:18:25,485 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,485 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:BIGINT) <- [1]
+2026-06-04 19:18:25,788 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,789 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:25,814 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:25,827 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:25.825896800]
+2026-06-04 19:18:25,828 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [0]
+2026-06-04 19:18:25,828 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:INTEGER) <- [0]
+2026-06-04 19:18:25,830 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:BIGINT) <- [1]
+2026-06-04 19:18:29,645 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:25.825896800]
+2026-06-04 19:18:29,647 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [10]
+2026-06-04 19:18:29,648 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:INTEGER) <- [0]
+2026-06-04 19:18:29,648 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:BIGINT) <- [1]
+2026-06-04 19:18:29,648 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (5:BIGINT) <- [1]
+2026-06-04 19:18:30,004 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [comprador.app321499@gmail.com]
+2026-06-04 19:18:30,006 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,080 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:30.079457800]
+2026-06-04 19:18:30,080 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [comprador.app321499@gmail.com]
+2026-06-04 19:18:30,081 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [comprador.app321499@gmail.com]
+2026-06-04 19:18:30,081 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:VARCHAR) <- [Maria Demo]
+2026-06-04 19:18:30,082 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (5:ENUM) <- [CLIENTE]
+2026-06-04 19:18:30,083 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (6:VARCHAR) <- [$2a$10$icrtdECVHh73BgaZ25e.V.uq0Q9CGK3XnTVQG3NZvWVoO84dJq0h.]
+2026-06-04 19:18:30,097 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [comprador.app321499@gmail.com]
+2026-06-04 19:18:30,098 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,195 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [comprador.app321499@gmail.com]
+2026-06-04 19:18:30,195 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,198 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [2]
+2026-06-04 19:18:30,204 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [2]
+2026-06-04 19:18:30,206 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [2]
+2026-06-04 19:18:30,209 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [Centro]
+2026-06-04 19:18:30,209 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [01001000]
+2026-06-04 19:18:30,210 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:VARCHAR) <- [Sao Paulo]
+2026-06-04 19:18:30,210 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:VARCHAR) <- [Apto 1]
+2026-06-04 19:18:30,210 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (5:TIMESTAMP) <- [2026-06-04T19:18:30.207998800]
+2026-06-04 19:18:30,210 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (6:VARCHAR) <- [SP]
+2026-06-04 19:18:30,210 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (7:VARCHAR) <- [Rua Demo]
+2026-06-04 19:18:30,210 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (8:VARCHAR) <- [100]
+2026-06-04 19:18:30,210 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (9:BOOLEAN) <- [true]
+2026-06-04 19:18:30,212 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (10:BIGINT) <- [2]
+2026-06-04 19:18:30,225 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [comprador.app321499@gmail.com]
+2026-06-04 19:18:30,226 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,254 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [2]
+2026-06-04 19:18:30,255 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,265 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:30.264730500]
+2026-06-04 19:18:30,266 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:BIGINT) <- [2]
+2026-06-04 19:18:30,271 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:30,278 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:30,279 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,288 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:30,289 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:TIMESTAMP) <- [2026-06-04T19:18:30.287732300]
+2026-06-04 19:18:30,290 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:INTEGER) <- [1]
+2026-06-04 19:18:30,291 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:BIGINT) <- [1]
+2026-06-04 19:18:30,334 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:VARCHAR) <- [comprador.app321499@gmail.com]
+2026-06-04 19:18:30,336 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,340 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [2]
+2026-06-04 19:18:30,340 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:30,350 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:30,359 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:30,365 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:30.362264300]
+2026-06-04 19:18:30,366 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:VARCHAR) <- [Rua Demo, 100 - Apto 1 - Centro - Sao Paulo/SP - CEP 01001000]
+2026-06-04 19:18:30,366 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:ENUM) <- [PIX]
+2026-06-04 19:18:30,366 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:ENUM) <- [AGUARDANDO_PAGAMENTO]
+2026-06-04 19:18:30,367 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (5:BIGINT) <- [2]
+2026-06-04 19:18:30,367 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (6:DOUBLE) <- [129.9]
+2026-06-04 19:18:30,370 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:TIMESTAMP) <- [2026-06-04T19:18:30.369266300]
+2026-06-04 19:18:30,371 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:BIGINT) <- [1]
+2026-06-04 19:18:30,372 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (3:DOUBLE) <- [129.9]
+2026-06-04 19:18:30,372 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (4:INTEGER) <- [1]
+2026-06-04 19:18:30,372 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (5:BIGINT) <- [1]
+2026-06-04 19:18:30,379 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (1:BIGINT) <- [1]
+2026-06-04 19:18:30,380 TRACE [org.hibernate.orm.jdbc.bind] (executor-thread-1) binding parameter (2:INTEGER) <- [1]
+2026-06-04 19:18:31,165 ERROR [io.quarkus.vertx.http.runtime.QuarkusErrorHandler] (executor-thread-1) HTTP Request to /cliente/pedidos/checkout failed, error id: c1892fe6-075a-47c6-b20d-6a04809381d3-1: org.jboss.resteasy.reactive.ClientWebApplicationException: Received: 'Bad Request, status code 400' when invoking REST Client method: 'br.com.amanda.ecommercetop.client.MercadoPagoClient#criarPagamento'
+	at org.jboss.resteasy.reactive.client.impl.RestClientRequestContext.unwrapException(RestClientRequestContext.java:222)
+	at org.jboss.resteasy.reactive.common.core.AbstractResteasyReactiveContext.handleException(AbstractResteasyReactiveContext.java:334)
+	at org.jboss.resteasy.reactive.common.core.AbstractResteasyReactiveContext.run(AbstractResteasyReactiveContext.java:175)
+	at io.smallrye.context.impl.wrappers.SlowContextualRunnable.run(SlowContextualRunnable.java:19)
+	at org.jboss.resteasy.reactive.client.handlers.ClientSwitchToRequestContextRestHandler$1$1.handle(ClientSwitchToRequestContextRestHandler.java:38)
+	at org.jboss.resteasy.reactive.client.handlers.ClientSwitchToRequestContextRestHandler$1$1.handle(ClientSwitchToRequestContextRestHandler.java:35)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:270)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:252)
+	at io.vertx.core.impl.ContextInternal.lambda$runOnContext$0(ContextInternal.java:50)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+Caused by: jakarta.ws.rs.WebApplicationException: Bad Request, status code 400
+	at io.quarkus.rest.client.reactive.runtime.DefaultMicroprofileRestClientExceptionMapper.toThrowable(DefaultMicroprofileRestClientExceptionMapper.java:19)
+	at io.quarkus.rest.client.reactive.runtime.MicroProfileRestClientResponseFilter.filter(MicroProfileRestClientResponseFilter.java:55)
+	at org.jboss.resteasy.reactive.client.handlers.ClientResponseFilterRestHandler.doHandle(ClientResponseFilterRestHandler.java:76)
+	at org.jboss.resteasy.reactive.client.handlers.ClientResponseFilterRestHandler.handle(ClientResponseFilterRestHandler.java:31)
+	at org.jboss.resteasy.reactive.client.handlers.ClientResponseFilterRestHandler.handle(ClientResponseFilterRestHandler.java:18)
+	at org.jboss.resteasy.reactive.common.core.AbstractResteasyReactiveContext.invokeHandler(AbstractResteasyReactiveContext.java:231)
+	at org.jboss.resteasy.reactive.common.core.AbstractResteasyReactiveContext.run(AbstractResteasyReactiveContext.java:147)
+	... 14 more
+
+2026-06-04 19:22:32,370 INFO  [io.quarkus.deployment.dev.RuntimeUpdatesProcessor] (vert.x-worker-thread-1) Restarting quarkus due to changes in WebhookResource.class, PedidoService.class, PagamentoService.class, PagamentoResource.class, MercadoPagoTesteResource.class, PedidoClienteResource.class.
+2026-06-04 19:22:32,718 INFO  [io.quarkus] (Quarkus Main Thread) ecommerce-top-admin stopped in 0.301s
+Java HotSpot(TM) 64-Bit Server VM warning: INFO: os::commit_memory(0x0000000092700000, 356515840, 0) failed; error='O arquivo de pagina��o � muito pequeno para que esta opera��o seja conclu�da' (DOS error/errno=1455)
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 356515840 bytes. Error detail: G1 virtual space
+# An error report file with more information is saved as:
+# C:\Users\amand\OneDrive\�rea de Trabalho\ecommerce-top-admin-main\hs_err_pid18480.log
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  08:16 min
+[INFO] Finished at: 2026-06-04T19:22:35-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal io.quarkus.platform:quarkus-maven-plugin:3.31.3:dev (default-cli) on project ecommerce-top-admin: Failed to run: Dev mode process did not complete successfully -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
